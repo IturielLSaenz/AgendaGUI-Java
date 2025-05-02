@@ -1,10 +1,16 @@
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+    Archivo ejecutable para el programa
+    Aquí se implementa la gui y todo el funcionamiento
+    Autor: Ituriel Liebes Saenz
+    Gracias gente de stackoverflow por la ayuda, gente divina.
+    Tecnologías: Java, JFrame.
+*/
 public class App {
     public static void main(String[] args) {
-        // Crear contacto principal (el dueño de la agenda)
-        Person owner = new Person("Ituriel", "8713488381", "iliebes@anahuac.mx");
+        // Crear contacto principal (el dueño de la agenda) <- reemplazar por el usuario!
+        Person owner = new Person("Ituriel", "12345678", "iliebes@anahuac.mx");
 
         // Crear agenda y agregar un evento opcional
         Agenda agenda = new Agenda(owner);
